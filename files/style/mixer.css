@@ -1,0 +1,14 @@
+@charset "utf-8";
+iframe {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+.mixerContainer {
+	min-height: 256px;
+	height: 512px;
+	max-height: 512px;
+}
+hr {
+	padding: 1em inherit;
+}

@@ -83,7 +83,21 @@
 ~index.html [Main, Blog, Github and About] modified to include wrapper, header, main, footer
     ~includes banner and navigation on all pages
 ```
-**changelog fix** - hybolic
+**mixer and about fixer** - hybolic
 ```
-~fixed formatting in changelog
++mixer page with embeded mixer stream
++mixer stylesheet
+    +iframe
+	    +padding set to 0px
+		+margin set to 0px
+		+height set to 100%
+    +.mixerContainer
+	    +min-height set to 256px
+		+max-height set to 512px
+		+height set to 512px
+	+hr
+	    +padding top/bottom set to 1em
+		    left/right set to inherit
+			
+~about page modified to appear like the others
 ```
