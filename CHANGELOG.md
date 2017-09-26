@@ -1,7 +1,7 @@
-#CHANGE LOG
+# CHANGE LOG
 
 
-##23rd, September 2017
+## 23rd, September 2017
 
 **First Commit** - CrystalSpore
 ```
@@ -22,14 +22,14 @@
 +Github page created
 ```
 
-##24th, September 2017
+## 24th, September 2017
 
 **Minor formatting things on home page** - CrystalSpore
 ```
 ~index page formatted
 ```
 
-##25th, September 2017
+## 25th, September 2017
 
 **Added a hidden blog skeleton** - CrystalSpore
 ```
@@ -45,14 +45,14 @@
 +note added to index page
 ```
 
-##26th, September 2017
+## 26th, September 2017
 
 **Updated links to be the full path** - CrystalSpore
 ```
 +links expanded to include website name
 ```
 
-##28th, September 2017
+## 28th, September 2017
 
 **Fork Modification** - hybolic
 ```
@@ -82,4 +82,8 @@
 		+script folder
 ~index.html [Main, Blog, Github and About] modified to include wrapper, header, main, footer
     ~includes banner and navigation on all pages
+```
+**changelog fix** - hybolic
+```
+~fixed formatting in changelog
 ```
