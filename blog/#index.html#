@@ -1,22 +1,26 @@
+<!doctype html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>[Blog] SNReloaded</title>
-    <link rel="stylesheet" href="/snr.css" type="text/css" />
-  </head>
-  <body>
-    <p>Hi, you've reached [ <a href="https://snreloaded.stream/blog">SNReloaded.stream/blog</a> ]! You now get to hear me ramble about code, games, and life stuff in general!</p>
-
-    <p>There are 3 key things about the blog portion of my site. 1) I will try to attach [tags], 2) I will try to put down #Trigger Warnings#, and 3) There is a lot of learning and growth going on here, so I might make mistakes. Please be nice to me! : D</p>
-
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[Blog] SNReloaded</title>
+<link href="../files/style/snr.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <header> <a href="../index.html"><img src="../files/images/SNR-banner.png" width="100%" height="100%" alt=""/></a> </header>
+  <nav><a href="../index.html">HOME</a> | <a href="../blog">BLOG</a> | <a href="../about/">ABOUT</a></nav>
+  <hr />
+  <main>
+    <p>Hi, you've reached [ <a href="../blog/">SNReloaded.stream/blog</a> ]! You now get to hear me ramble about code, games, and life stuff in general!</p>
+    <p>There are 3 key things about the blog portion of my site. 1) I will try to attach <i>[tags]</i>, 2) I will try to put down <i>#Trigger Warnings#</i>, and 3) There is a lot of learning and growth going on here, so I might make mistakes. Please be nice to me! : D</p>
     <hr />
-
     <ul>
-      <li><a hrut/">My about page</a>, which contains words about me (and links to other sites).</li>
-      <li><a href="mixer/">Mixer info page [In progress]</a>, which has schedule and games I play, etc. If you just want my stream page, you can access that <a href="http://mixer.com/SNReloaded">here</a>.</li>
-      <li><a href="github/">GitHub Info</a>, which links to my GitHub account and also lists some of the projects that I have worked on.</li>
-      <!-- <li><a href="blog/">My blog [to be created eventually]</a></li> -->
+      <li><a href="001_first_
+post.html">My first post</a>, which isn't currently up, but will be soon.</li>
+      <!-- <li><a href="blog/">My blog [to be created eventually]</a></li> --> 
       <!-- <li><a href="tutorials/">Tutorials</a> I've made, for when I've re-explained something to friends way too often for my sanity.</li> -->
     </ul>
-  </body>
+  </main>
+</div>
+</body>
 </html>
