@@ -100,4 +100,5 @@
 		    left/right set to inherit
 			
 ~about page modified to appear like the others
+~format changelog
 ```
