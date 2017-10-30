@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>[Entry 002] SNReloaded</title>
+<link href="../files/style/snr.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+  <header> <a href="../index.html"><img src="../files/images/SNR-banner.png" width="100%" height="100%" alt=""/></a> </header>
+  <nav><a href="../index.html">HOME</a> | <a href="../blog">BLOG</a> | <a href="../about/">ABOUT</a></nav>
+  <hr />
+  <main>
+    <p><i>[Linux]</i> | <i>[terminal]</i></p>
+    <hr />
+    <p>Hello all! o/</p>
+    <p>Today, we will be talking about Linux! Specifically a look at it from a beginner's perspective. The two versions of Linux we will be looking at is Ubuntu (both desktop and server versions), and Elementary OS.</p>
+    <p>Ubuntu is my daily driver. It's what I use on both my personal computer (using Ubuntu desktop), and on my server computer (which runs this website that you are currently viewing, using Ubuntu server). At this point you might be thinking, what's the big difference between the desktop and server versions of Ubuntu? The main difference is that the desktop version has a <i>desktop environment</i>, while the server version does not. A desktop environment is basically what you would be used to seeing in either Windows or MacOS.</p>
+    <p>The server version of ubuntu by default does not have a desktop environment.
+  </main>
+</div>
+</body>
+</html>
