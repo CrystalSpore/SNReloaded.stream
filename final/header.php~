@@ -1,0 +1,15 @@
+<div id="header">
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+<?php
+    echo session_id();
+    if (session_id() != '' && ($_SESSION["username']))
+    {
+        echo '        <li><a href="change_pass.php">Change Password</a></li>';
+        echo '        <li><a href="exams.php">Exams</a></li>';
+        echo '        <li><a href="grades.php">Grades</a></li>';
+        echo '        <li class="header-right"><a href="logout.php">Logout</a></li>';
+    }
+?>
+    </ul>
+</div>

@@ -9,7 +9,7 @@
       });
       </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>[About] SNReloaded</title>
+    <title>[Schedule] SNReloaded</title>
     <link href="../files/style/snr.css" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -18,16 +18,32 @@
       <nav><a href="../index.html">HOME</a> | <a href="../about/">ABOUT</a> | <a href="../schedule/">SCHEDULE</a> | <a href="../tips/">TIP JAR</a></nav>
       <hr />
       <main>
-        <p>This is the page where I talk about myself for a bit. I get to be <i>slightly</i> self centered for a moment here.</p>
+        <p>Listed below is my (tentative) schedule. I will do my best to follow it!</p>
         <hr />
-        <ul>
-          <li>I'm a CS & CpE major at Michgigan Technological University [Second Year].</li>
-	  <li>I develop text autocorrection tools through a research position, and I help tutor CS students through a Learning Center.</li>
-	  <li>I enjoy to stream over on <a href="../mixer/">Mixer</a>, where I play games and work on program stuff.</li>
-	  <li>My pronouns are She/Her/Hers, and I am a transgirl.</li>
-        </ul>
+        <table>
+          <tr>
+	    <th>Day</th>
+	    <th>Time</th>
+	    <th>Game/Content</th>
+	  </tr>
+	  <tr>
+	    <td>Monday</td>
+	    <td>6:00-8:00EST</td>
+	    <td>Overwatch</td>
+	  </tr>
+	  <tr>
+	    <td>Tuesday</td>
+	    <td>N/A</td>
+	    <td>No Schedule</td>
+	  </tr>
+	  <tr>
+	    <td>Wednesday</td>
+	    <td>N/A</td>
+	    <td>No Schedule</td>
+	  </tr>
+	  <tr>
+        </table>
 	<hr />
-	<p>If I missed anything important, feel free to let me know!</p>
       </main>
     </div>
   </body>
