@@ -7,6 +7,11 @@
 	left: 0px;
 	right: 0px;
 }
+.center {
+    margin: auto;
+    max-width: 262px;
+    align: center;
+}
 body {
 	background-color: #040201;
 }
