@@ -14,9 +14,12 @@
 }
 .footer {
     position: fixed;
+    left: 0;
     bottom: 0;
+    background-color: #7AF8CA;
     color: #FFFFFF;
     text-align: center;
+    width: 100%;
 }
 body {
 	background-color: #040201;
