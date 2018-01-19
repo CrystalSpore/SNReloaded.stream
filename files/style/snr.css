@@ -12,6 +12,12 @@
     max-width: 262px;
     align: center;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+}
 body {
 	background-color: #040201;
 }
