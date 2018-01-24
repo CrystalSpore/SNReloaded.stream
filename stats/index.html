@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>[Computer Stats] SNReloaded</title>
+    <script src="../files/script/format.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <script src="../files/script/nav.js"></script>
+      <main>
+	<?php
+	   echo file_get_contents("/home/snreloaded/top-stats.txt");
+	   sleep(100);
+	   shell_exec("/home/snreloaded/top-stats.sh");
+	   sleep(1);
+	   header("Refresh:0");
+	   ?>
+      </main>
+      <script src="../files/script/footer.js"></script>
+    </div>
+  </body>
+</html>

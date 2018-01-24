@@ -1,0 +1,1 @@
+document.write('<header><a href="../index.html"><img src="../files/images/SNR-banner.png" width="100%" height="100%" alt=""/></a></header><nav><a href="../index.html">HOME</a> | <a href="../about/">ABOUT</a> | <a href="../schedule/">SCHEDULE</a> | <a href="../tips/">TIP JAR</a></nav><hr />');

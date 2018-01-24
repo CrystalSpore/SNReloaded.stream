@@ -7,6 +7,21 @@
 	left: 0px;
 	right: 0px;
 }
+.center {
+    margin: auto;
+    max-width: 262px;
+    align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #7AF8CA;
+    color: #040201;
+    text-align: center;
+    width: 100%;
+    margin: 2em 0 0 0;
+}
 body {
 	background-color: #040201;
 }
@@ -23,6 +38,9 @@ nav {
 	margin-left: 1em;
 	margin-bottom: 1em;
 	text-align: center;
+}
+form {
+    
 }
 a:link {
 	color: #7AF8CA;
