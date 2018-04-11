@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /restart.php
+Disallow: /restart.html
