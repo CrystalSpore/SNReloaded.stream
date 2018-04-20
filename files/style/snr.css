@@ -1,7 +1,7 @@
 @charset "utf-8";
 .wrapper {
     margin: auto;
-    max-width: 960px;
+    width: 85%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -9,8 +9,9 @@
 }
 .center {
     margin: auto;
-    max-width: 262px;
+    width: 85%;
     align: center;
+    position: relative;
 }
 .footer {
     position: fixed;
@@ -27,6 +28,7 @@ body {
     width: 40em;
     margin: 0 auto;
     text-align: center;
+    font-family: Georgia;
 }
 main {
     color: #FFFFFF;
@@ -47,7 +49,7 @@ form {
     
 }
 ul {
-    width: 40em;
+    width: 85%;
     margin:0 auto;
     text-align: left;
 }
