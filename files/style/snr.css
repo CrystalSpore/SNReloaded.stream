@@ -2,7 +2,7 @@
 .wrapper {
     margin: auto;
     width: 85%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -29,12 +29,13 @@ body {
     /*width: 40em;*/
     margin: 0 auto;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     font-family: Georgia;
 }
 #particles-js {
-    height: 100vh;
+    height: 100%;
+    pointer-events: none;
 }
 main {
     color: #FFFFFF;

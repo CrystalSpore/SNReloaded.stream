@@ -88,7 +88,8 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: 'canvas',
+	enable: false,
+	detect_on: 'canvas',
       events: {
         onhover: {
           enable: true,
@@ -125,7 +126,7 @@ var pJS = function(tag_id, params){
       },
       mouse:{}
     },
-    retina_detect: false,
+
     fn: {
       interact: {},
       modes: {},
