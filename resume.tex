@@ -1,0 +1,103 @@
+%        File: resume.tex
+%      Author: Leon Zaruvinsky
+%     License: MIT License
+%     Created: Fri Sep 05 06:00 PM 2014 E
+% Last Change: Fri Sep 05 12:40 AM 2014 E
+%
+%
+% There are two additionally defined types of subsection headers:
+%
+% \subsectiond{Arg 1}{Arg 2}
+% Arg 1 is left aligned, Arg 2 is tabbed from Arg 1
+%
+% \subsectionp{Arg 1}{Arg 2}{Arg 3}
+% Arg 1 is left aligned, Arg 2 is tabbed from Arg 1, and Arg 3 is right aligned
+%
+% See the sample PDF for a visual 
+%
+% % % % % % % % % % %
+%
+% \desc = description, aka paragraph
+%
+% % % % % % % % % % %
+%
+% This is my first LaTeX document, so I don't expect it to be pretty or perfect.
+% Rather, I haven't been able to find a Resume template I liked so I made my own.
+%
+% If you find any errors or want to make improvements, feel free to submit a pull request.
+%
+%
+
+\documentclass{resume}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{enumitem}
+
+\begin{document}
+\pagenumbering{gobble}
+\name{Crystal Fletcher}
+
+\info{\href{mailto:tafletch@mtu.edu}{tafletch@mtu.edu}}{(989) 259-0273}{\href{https://www.linkedin.com/in/crystal-fletcher-639a3a170/}{linkedin.snreloaded.stream}}{\href{https://github.com/CrystalSpore}{GitHub.com/CrystalSpore}}
+
+\vspace{-1.5em}
+\section{Education}
+\subsectionp{Michigan Technological University}{Houghton, MI}{Expected May 2020}
+\desc{B.S. in Computer Science, Departmental GPA 3.58}
+
+\subsection{Selected Coursework}
+\hspace{12pt} \begin{tabularx}{\linewidth}{r X}
+    In Progress & Programming Languages, Husky Game Development, \& Systems Programming \\
+    Completed & Programming at the HW/SW Interface, Intro to Database Systems, Team Software Project, Formal Models of Computation, \& Computer Organization
+\end{tabularx}
+
+\vspace{-1em}
+
+\section{Work Experience}
+
+\subsectionp{Vertanen Research, VelociTap Text Auto-Correction}{Houghton, MI}{January 2017 - Present}
+\desc{\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{-.1em}
+    \item Development of experimental applications in text auto-correction and input stimuli.
+    \item Use of Application Programming Interface (API) in development of Smartwatch testing app.
+    \item Development within the research team accomplised both independently and as group programming.
+\end{itemize}}
+
+\subsectionp{MTU Computer Science Learning Center Coach}{Houghton, MI}{September 2017 - Present}
+\desc{\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{-.1em}
+    \item I tutor students on logic and problem solving skills relating to programming \& discrete math.
+\end{itemize}}
+
+\subsectionp{Lowe's Home Improvement Center}{Midland, MI}{Summers of  2017 \& 2018}
+\desc{\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{-.1em}
+    \item Started as Cashier, interfacing with customers.
+    \item Promoted in summer 2018 to the Customer Service Desk, where I helped customers with problems.
+\end{itemize}}
+
+\section{Languages and Technologies}
+
+\desc{
+	\begin{description}
+		\item[Most Experienced] Java, C/C++, HTML5/CSS3/XHTML, Git \& GitHub
+		\item[Some Familiarity] Rust, JavaScript (Node.js), MySQL, Android, Assembly, C\#, \& \LaTeX
+	\end{description}
+}
+
+\section{Side Projects}
+
+\subsectionp{Personal Website: {\href{https://SNReloaded.stream}{SNReloaded.stream}}}{}{}
+\desc{Self Hosted website with most everything hand coded. SSL certificate included for secure connection. Source: \href{https://github.com/CrystalSpore/SNReloaded.stream}{github.com/CrystalSpore/SNReloaded.stream}}
+
+\subsectionp{ATOM (A Tiny Object Modeler)}{}{}
+\desc{Project for the Team Software Project class. Source: \href{https://github.com/TSP-Molecule/ATOM}{github.com/TSP-Molecule/ATOM}}
+
+\section{Extracurricular Activities}
+
+\subsectionp{Copper County Coders - Mentoring}{}{September 2016 - May 2017}
+\desc{Mentor middle school and high school students in various programming languages \& web design.}
+
+\subsectionp{FIRST Robotics}{Team 2619}{October 2012 - August 2016}
+\desc{Active member and programming lead, and team qualified for MI State \& Worlds competition all 4 years}
+
+\end{document}
