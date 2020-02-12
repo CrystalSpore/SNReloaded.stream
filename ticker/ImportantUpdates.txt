@@ -1,0 +1,6 @@
+Known Issues
+- Downloading files currently is only tested with Google Chrome.
+If you're having trouble downloading files in other browsers, please try Chrome first.
+We are working on an update for the other browsers.
+
+- Ad Block may cause images not to load properly
